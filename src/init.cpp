@@ -12,6 +12,9 @@ static const R_CallMethodDef all_call_entries[] = {
     REGISTER(forge_system, 4),
     REGISTER(subset_and_divide, 3),
 
+    REGISTER(truncnorm_test, 7),
+    REGISTER(fit_truncnorm_test, 5),
+
     // Cell cycle calling.
     REGISTER(shuffle_scores, 8),
     REGISTER(auto_shuffle, 2),
